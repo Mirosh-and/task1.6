@@ -46,6 +46,10 @@ main h4{
     text-decoration: none;
     color: black;
 }
+.group{
+    height: 46px;
+    width: 308px;
+}
 
 .first_page{
     margin: 0;
@@ -64,17 +68,14 @@ main{
     overflow: auto;
 }
 
+
 .form input{
     width: 300px;
     height: 40px;
 }
 
 form{
-    /*margin: 0 auto;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;*/
+
     margin: 50px;
     border: 1px solid black;
     position: absolute;
@@ -83,6 +84,15 @@ form{
     margin: 15px 40px;
     text-align: center;
     transform: translate(-50%, -50%);
+}
+
+.group_option{
+    height: 46px;
+    width: 308px;
+}
+.text_group{
+    text-align: left;
+    margin-left: 10px;
 }
 #form2{
     margin: 10px;
